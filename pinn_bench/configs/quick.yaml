@@ -1,0 +1,16 @@
+# Quick smoke-test config: verifies the full pipeline runs end to end.
+# Matches the scale of the original roadmap's QUICK_MODE=True pilot run.
+seeds: [0, 1]
+problems: ["heat", "burgers"]
+optimizers: ["Adam", "LBFGS", "Adam_LBFGS", "Shampoo", "SOAP", "Muon"]
+adam_steps: 1500
+shampoo_steps: 1500
+hybrid_adam_steps: 1000
+lbfgs_max_iter: 300
+n_f: 1500
+n_ic: 150
+n_bc: 150
+results_dir: "results/quick"
+hparams:
+  Muon:
+    lr: 0.01   # lowered from the 0.02 Muon default after it diverged on Allen-Cahn at 0.02

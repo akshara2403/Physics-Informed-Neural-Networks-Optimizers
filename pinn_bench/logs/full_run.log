@@ -1,0 +1,517 @@
+Problems: ['heat', 'burgers', 'allen_cahn', 'kdv']
+Optimizers: ['Adam', 'LBFGS', 'Adam_LBFGS', 'Shampoo', 'SOAP', 'Muon']
+Seeds: [0, 1, 2, 3, 4]
+Device: cpu
+
+Running problem=heat optimizer=Adam seed=0
+  done in 9.4s: gap=0.001157 flag=ok
+
+Running problem=heat optimizer=LBFGS seed=0
+  done in 2.3s: gap=0.0004961 flag=ok
+
+Running problem=heat optimizer=Adam_LBFGS seed=0
+  done in 6.9s: gap=0.0003172 flag=ok
+
+Running problem=heat optimizer=Shampoo seed=0
+  done in 9.5s: gap=0.002121 flag=ok
+
+Running problem=heat optimizer=SOAP seed=0
+  done in 9.7s: gap=0.01891 flag=ok
+
+Running problem=heat optimizer=Muon seed=0
+  done in 10.0s: gap=0.0196 flag=ok
+
+Running problem=heat optimizer=Adam seed=1
+  done in 8.6s: gap=0.02946 flag=ok
+
+Running problem=heat optimizer=LBFGS seed=1
+  done in 3.3s: gap=0.0005334 flag=ok
+
+Running problem=heat optimizer=Adam_LBFGS seed=1
+  done in 6.5s: gap=0.0006486 flag=ok
+
+Running problem=heat optimizer=Shampoo seed=1
+  done in 9.6s: gap=0.001589 flag=ok
+
+Running problem=heat optimizer=SOAP seed=1
+  done in 9.8s: gap=0.0006631 flag=ok
+
+Running problem=heat optimizer=Muon seed=1
+  done in 9.8s: gap=0.04482 flag=ok
+
+Running problem=heat optimizer=Adam seed=2
+  done in 8.8s: gap=0.001813 flag=ok
+
+Running problem=heat optimizer=LBFGS seed=2
+  done in 3.3s: gap=0.0003387 flag=ok
+
+Running problem=heat optimizer=Adam_LBFGS seed=2
+  done in 7.4s: gap=0.0005618 flag=ok
+
+Running problem=heat optimizer=Shampoo seed=2
+  done in 9.2s: gap=0.002507 flag=ok
+
+Running problem=heat optimizer=SOAP seed=2
+  done in 9.4s: gap=0.001045 flag=ok
+
+Running problem=heat optimizer=Muon seed=2
+  done in 10.3s: gap=0.02028 flag=ok
+
+Running problem=heat optimizer=Adam seed=3
+  done in 8.7s: gap=0.001799 flag=ok
+
+Running problem=heat optimizer=LBFGS seed=3
+  done in 3.7s: gap=0.0009468 flag=ok
+
+Running problem=heat optimizer=Adam_LBFGS seed=3
+  done in 7.9s: gap=0.0007276 flag=ok
+
+Running problem=heat optimizer=Shampoo seed=3
+  done in 9.4s: gap=0.002657 flag=ok
+
+Running problem=heat optimizer=SOAP seed=3
+  done in 9.4s: gap=0.0008067 flag=ok
+
+Running problem=heat optimizer=Muon seed=3
+  done in 10.2s: gap=0.05365 flag=ok
+
+Running problem=heat optimizer=Adam seed=4
+  done in 8.8s: gap=0.001754 flag=ok
+
+Running problem=heat optimizer=LBFGS seed=4
+  done in 3.6s: gap=0.0003641 flag=ok
+
+Running problem=heat optimizer=Adam_LBFGS seed=4
+  done in 6.9s: gap=0.000335 flag=ok
+
+Running problem=heat optimizer=Shampoo seed=4
+  done in 9.3s: gap=0.001468 flag=ok
+
+Running problem=heat optimizer=SOAP seed=4
+  done in 9.5s: gap=0.0007398 flag=ok
+
+Running problem=heat optimizer=Muon seed=4
+  done in 10.1s: gap=0.04694 flag=ok
+
+Running problem=burgers optimizer=Adam seed=0
+  done in 9.6s: gap=0.3956 flag=ok
+
+Running problem=burgers optimizer=LBFGS seed=0
+  done in 4.2s: gap=0.2242 flag=ok
+
+Running problem=burgers optimizer=Adam_LBFGS seed=0
+  done in 9.6s: gap=0.2026 flag=ok
+
+Running problem=burgers optimizer=Shampoo seed=0
+  done in 10.4s: gap=0.36 flag=ok
+
+Running problem=burgers optimizer=SOAP seed=0
+  done in 10.4s: gap=0.378 flag=ok
+
+Running problem=burgers optimizer=Muon seed=0
+  done in 10.5s: gap=0.2608 flag=ok
+
+Running problem=burgers optimizer=Adam seed=1
+  done in 9.4s: gap=0.3821 flag=ok
+
+Running problem=burgers optimizer=LBFGS seed=1
+  done in 4.2s: gap=0.189 flag=ok
+
+Running problem=burgers optimizer=Adam_LBFGS seed=1
+  done in 9.6s: gap=0.1443 flag=ok
+
+Running problem=burgers optimizer=Shampoo seed=1
+  done in 10.1s: gap=0.418 flag=ok
+
+Running problem=burgers optimizer=SOAP seed=1
+  done in 10.2s: gap=0.3661 flag=ok
+
+Running problem=burgers optimizer=Muon seed=1
+  done in 11.0s: gap=0.2393 flag=ok
+
+Running problem=burgers optimizer=Adam seed=2
+  done in 9.4s: gap=0.3044 flag=ok
+
+Running problem=burgers optimizer=LBFGS seed=2
+  done in 4.0s: gap=0.2961 flag=ok
+
+Running problem=burgers optimizer=Adam_LBFGS seed=2
+  done in 9.5s: gap=0.2706 flag=ok
+
+Running problem=burgers optimizer=Shampoo seed=2
+  done in 10.5s: gap=0.4006 flag=ok
+
+Running problem=burgers optimizer=SOAP seed=2
+  done in 10.4s: gap=0.3693 flag=ok
+
+Running problem=burgers optimizer=Muon seed=2
+  done in 10.9s: gap=0.09013 flag=ok
+
+Running problem=burgers optimizer=Adam seed=3
+  done in 9.5s: gap=0.2794 flag=ok
+
+Running problem=burgers optimizer=LBFGS seed=3
+  done in 4.2s: gap=0.1495 flag=ok
+
+Running problem=burgers optimizer=Adam_LBFGS seed=3
+  done in 9.6s: gap=0.1818 flag=ok
+
+Running problem=burgers optimizer=Shampoo seed=3
+  done in 10.8s: gap=0.3639 flag=ok
+
+Running problem=burgers optimizer=SOAP seed=3
+  done in 10.5s: gap=0.2945 flag=ok
+
+Running problem=burgers optimizer=Muon seed=3
+  done in 10.5s: gap=0.07984 flag=ok
+
+Running problem=burgers optimizer=Adam seed=4
+  done in 9.5s: gap=0.3465 flag=ok
+
+Running problem=burgers optimizer=LBFGS seed=4
+  done in 3.9s: gap=0.1426 flag=ok
+
+Running problem=burgers optimizer=Adam_LBFGS seed=4
+  done in 9.3s: gap=0.1049 flag=ok
+
+Running problem=burgers optimizer=Shampoo seed=4
+  done in 10.2s: gap=0.3829 flag=ok
+
+Running problem=burgers optimizer=SOAP seed=4
+  done in 10.3s: gap=0.3821 flag=ok
+
+Running problem=burgers optimizer=Muon seed=4
+  done in 10.7s: gap=0.1346 flag=ok
+
+Running problem=allen_cahn optimizer=Adam seed=0
+  done in 9.3s: gap=1.142 flag=ok
+
+Running problem=allen_cahn optimizer=LBFGS seed=0
+  done in 4.3s: gap=0.776 flag=ok
+
+Running problem=allen_cahn optimizer=Adam_LBFGS seed=0
+  done in 9.5s: gap=0.7801 flag=ok
+
+Running problem=allen_cahn optimizer=Shampoo seed=0
+  done in 10.3s: gap=0.9553 flag=ok
+
+Running problem=allen_cahn optimizer=SOAP seed=0
+  done in 10.5s: gap=1.03 flag=ok
+
+Running problem=allen_cahn optimizer=Muon seed=0
+  done in 10.6s: gap=0.8136 flag=ok
+
+Running problem=allen_cahn optimizer=Adam seed=1
+  done in 9.1s: gap=1.182 flag=ok
+
+Running problem=allen_cahn optimizer=LBFGS seed=1
+  done in 3.8s: gap=0.8136 flag=ok
+
+Running problem=allen_cahn optimizer=Adam_LBFGS seed=1
+  done in 9.2s: gap=0.8026 flag=ok
+
+Running problem=allen_cahn optimizer=Shampoo seed=1
+  done in 10.1s: gap=1.17 flag=ok
+
+Running problem=allen_cahn optimizer=SOAP seed=1
+  done in 10.1s: gap=0.9586 flag=ok
+
+Running problem=allen_cahn optimizer=Muon seed=1
+  done in 10.7s: gap=0.9263 flag=ok
+
+Running problem=allen_cahn optimizer=Adam seed=2
+  done in 9.1s: gap=1.044 flag=ok
+
+Running problem=allen_cahn optimizer=LBFGS seed=2
+  done in 4.0s: gap=0.7822 flag=ok
+
+Running problem=allen_cahn optimizer=Adam_LBFGS seed=2
+  done in 9.7s: gap=0.7843 flag=ok
+
+Running problem=allen_cahn optimizer=Shampoo seed=2
+  done in 10.2s: gap=1.027 flag=ok
+
+Running problem=allen_cahn optimizer=SOAP seed=2
+  done in 10.0s: gap=0.9874 flag=ok
+
+Running problem=allen_cahn optimizer=Muon seed=2
+  done in 10.7s: gap=0.6622 flag=ok
+
+Running problem=allen_cahn optimizer=Adam seed=3
+  done in 9.3s: gap=1.064 flag=ok
+
+Running problem=allen_cahn optimizer=LBFGS seed=3
+  done in 4.0s: gap=0.8761 flag=ok
+
+Running problem=allen_cahn optimizer=Adam_LBFGS seed=3
+  done in 9.2s: gap=0.7722 flag=ok
+
+Running problem=allen_cahn optimizer=Shampoo seed=3
+  done in 10.2s: gap=1.029 flag=ok
+
+Running problem=allen_cahn optimizer=SOAP seed=3
+  done in 10.2s: gap=1.003 flag=ok
+
+Running problem=allen_cahn optimizer=Muon seed=3
+  done in 10.5s: gap=0.7466 flag=ok
+
+Running problem=allen_cahn optimizer=Adam seed=4
+  done in 9.6s: gap=1.093 flag=ok
+
+Running problem=allen_cahn optimizer=LBFGS seed=4
+  done in 4.1s: gap=0.805 flag=ok
+
+Running problem=allen_cahn optimizer=Adam_LBFGS seed=4
+  done in 9.6s: gap=0.7606 flag=ok
+
+Running problem=allen_cahn optimizer=Shampoo seed=4
+  done in 10.3s: gap=1.04 flag=ok
+
+Running problem=allen_cahn optimizer=SOAP seed=4
+  done in 10.6s: gap=0.9504 flag=ok
+
+Running problem=allen_cahn optimizer=Muon seed=4
+  done in 10.5s: gap=0.9355 flag=ok
+
+Running problem=kdv optimizer=Adam seed=0
+  done in 16.0s: gap=0.009661 flag=ok
+
+Running problem=kdv optimizer=LBFGS seed=0
+  done in 6.8s: gap=0.001752 flag=ok
+
+Running problem=kdv optimizer=Adam_LBFGS seed=0
+  done in 14.7s: gap=0.001271 flag=ok
+
+Running problem=kdv optimizer=Shampoo seed=0
+  done in 16.1s: gap=0.01338 flag=ok
+
+Running problem=kdv optimizer=SOAP seed=0
+  done in 16.2s: gap=0.01436 flag=ok
+
+Running problem=kdv optimizer=Muon seed=0
+  done in 16.6s: gap=0.1623 flag=ok
+
+Running problem=kdv optimizer=Adam seed=1
+  done in 15.3s: gap=0.00714 flag=ok
+
+Running problem=kdv optimizer=LBFGS seed=1
+  done in 7.1s: gap=0.002103 flag=ok
+
+Running problem=kdv optimizer=Adam_LBFGS seed=1
+  done in 15.9s: gap=0.0009396 flag=ok
+
+Running problem=kdv optimizer=Shampoo seed=1
+  done in 16.6s: gap=0.02462 flag=ok
+
+Running problem=kdv optimizer=SOAP seed=1
+  done in 16.4s: gap=0.07201 flag=ok
+
+Running problem=kdv optimizer=Muon seed=1
+  done in 16.8s: gap=0.2618 flag=ok
+
+Running problem=kdv optimizer=Adam seed=2
+  done in 15.6s: gap=0.004718 flag=ok
+
+Running problem=kdv optimizer=LBFGS seed=2
+  done in 7.0s: gap=0.001013 flag=ok
+
+Running problem=kdv optimizer=Adam_LBFGS seed=2
+  done in 14.5s: gap=0.0009446 flag=ok
+
+Running problem=kdv optimizer=Shampoo seed=2
+  done in 16.6s: gap=0.02033 flag=ok
+
+Running problem=kdv optimizer=SOAP seed=2
+  done in 16.4s: gap=0.009797 flag=ok
+
+Running problem=kdv optimizer=Muon seed=2
+  done in 17.2s: gap=0.2243 flag=ok
+
+Running problem=kdv optimizer=Adam seed=3
+  done in 15.4s: gap=0.01014 flag=ok
+
+Running problem=kdv optimizer=LBFGS seed=3
+  done in 6.6s: gap=0.001152 flag=ok
+
+Running problem=kdv optimizer=Adam_LBFGS seed=3
+  done in 16.0s: gap=0.0009952 flag=ok
+
+Running problem=kdv optimizer=Shampoo seed=3
+  done in 16.5s: gap=0.04642 flag=ok
+
+Running problem=kdv optimizer=SOAP seed=3
+  done in 16.6s: gap=0.01782 flag=ok
+
+Running problem=kdv optimizer=Muon seed=3
+  done in 17.0s: gap=0.2436 flag=ok
+
+Running problem=kdv optimizer=Adam seed=4
+  done in 15.4s: gap=0.008709 flag=ok
+
+Running problem=kdv optimizer=LBFGS seed=4
+  done in 7.3s: gap=0.0009885 flag=ok
+
+Running problem=kdv optimizer=Adam_LBFGS seed=4
+  done in 14.9s: gap=0.001183 flag=ok
+
+Running problem=kdv optimizer=Shampoo seed=4
+  done in 16.9s: gap=0.02528 flag=ok
+
+Running problem=kdv optimizer=SOAP seed=4
+  done in 15.8s: gap=0.008838 flag=ok
+
+Running problem=kdv optimizer=Muon seed=4
+  done in 16.5s: gap=0.1775 flag=ok
+
+Final results:
+   problem  optimizer  seed  relative_solution_gap  pde_residual_mse  final_total_loss  final_pde_loss  final_ic_loss  final_bc_loss  runtime_seconds  runtime_normalized_error  loss_oscillation_index  num_logged_points  num_parameters failure_flag failure_message
+      heat       Adam     0               0.001157      3.085857e-05          0.000032    3.085857e-05   5.006285e-07   8.843851e-07         8.983625                  0.003468                0.102564                 41            2241           ok                
+      heat      LBFGS     0               0.000496      3.701176e-06          0.000004    3.701176e-06   1.154272e-07   2.139512e-07         2.052087                  0.000711                0.095238                 23            2241           ok                
+      heat Adam_LBFGS     0               0.000317      1.724575e-06          0.000002    1.724574e-06   5.784364e-08   8.244063e-08         6.631537                  0.000817                0.000000                 41            2241           ok                
+      heat    Shampoo     0               0.002121      6.632122e-05          0.000071    6.632121e-05   2.278818e-06   2.284976e-06         9.190913                  0.006430                0.000000                 41            2241           ok                
+      heat       SOAP     0               0.018906      1.504754e-05          0.000200    1.504754e-05   8.024495e-05   1.042357e-04         9.445540                  0.058106                0.025641                 41            2241           ok                
+      heat       Muon     0               0.019604      5.504330e-04          0.001028    5.504331e-04   2.649556e-04   2.128788e-04         9.717230                  0.061109                0.564103                 41            2241           ok                
+      heat       Adam     1               0.029456      4.644987e-04          0.001201    4.644986e-04   5.126550e-04   2.234031e-04         8.310764                  0.084916                0.179487                 41            2241           ok                
+      heat      LBFGS     1               0.000533      3.377943e-06          0.000004    3.377943e-06   1.869788e-07   2.888176e-07         2.997488                  0.000923                0.000000                 33            2241           ok                
+      heat Adam_LBFGS     1               0.000649      6.817090e-06          0.000007    6.817089e-06   1.922895e-07   3.573870e-07         6.238157                  0.001620                0.055556                 38            2241           ok                
+      heat    Shampoo     1               0.001589      5.164497e-05          0.000055    5.164497e-05   1.391790e-06   2.028492e-06         9.245787                  0.004831                0.000000                 41            2241           ok                
+      heat       SOAP     1               0.000663      1.048700e-05          0.000011    1.048700e-05   8.464996e-08   5.052030e-07         9.521482                  0.002046                0.051282                 41            2241           ok                
+      heat       Muon     1               0.044819      2.464833e-03          0.004184    2.464833e-03   1.127672e-03   5.911464e-04         9.523217                  0.138311                0.564103                 41            2241           ok                
+      heat       Adam     2               0.001813      4.998961e-05          0.000054    4.998961e-05   1.963028e-06   2.019108e-06         8.403177                  0.005256                0.102564                 41            2241           ok                
+      heat      LBFGS     2               0.000339      1.247943e-06          0.000001    1.247943e-06   1.069239e-07   1.091929e-07         3.020966                  0.000589                0.000000                 35            2241           ok                
+      heat Adam_LBFGS     2               0.000562      2.269674e-06          0.000003    2.269674e-06   9.374512e-08   3.034356e-07         7.091830                  0.001496                0.000000                 52            2241           ok                
+      heat    Shampoo     2               0.002507      4.102895e-05          0.000050    4.102895e-05   1.481002e-06   7.049427e-06         8.923425                  0.007489                0.000000                 41            2241           ok                
+      heat       SOAP     2               0.001045      2.020189e-05          0.000022    2.020189e-05   6.475549e-07   1.150970e-06         9.128314                  0.003156                0.000000                 41            2241           ok                
+      heat       Muon     2               0.020283      6.882223e-04          0.001282    6.882224e-04   3.469980e-04   2.464720e-04        10.004039                  0.064155                0.615385                 41            2241           ok                
+      heat       Adam     3               0.001799      7.308059e-05          0.000077    7.308059e-05   1.105766e-06   2.853888e-06         8.422511                  0.005221                0.205128                 41            2241           ok                
+      heat      LBFGS     3               0.000947      8.550280e-06          0.000010    8.550280e-06   4.835188e-07   9.836145e-07         3.404413                  0.001747                0.054054                 39            2241           ok                
+      heat Adam_LBFGS     3               0.000728      4.373752e-06          0.000005    4.373752e-06   1.740920e-07   5.730858e-07         7.652131                  0.002013                0.000000                 52            2241           ok                
+      heat    Shampoo     3               0.002657      2.330783e-05          0.000037    2.330784e-05   5.609156e-06   7.903211e-06         9.180191                  0.008050                0.000000                 41            2241           ok                
+      heat       SOAP     3               0.000807      1.730233e-05          0.000018    1.730233e-05   1.611138e-07   7.093073e-07         9.180368                  0.002444                0.000000                 41            2241           ok                
+      heat       Muon     3               0.053647      3.670329e-03          0.007324    3.670329e-03   1.854336e-03   1.799128e-03         9.902208                  0.168814                0.461538                 41            2241           ok                
+      heat       Adam     4               0.001754      2.448961e-05          0.000028    2.448961e-05   9.274375e-07   2.778616e-06         8.403254                  0.005085                0.153846                 41            2241           ok                
+      heat      LBFGS     4               0.000364      2.008684e-06          0.000002    2.008684e-06   7.513032e-08   1.095268e-07         3.309754                  0.000662                0.078947                 40            2241           ok                
+      heat Adam_LBFGS     4               0.000335      2.087207e-06          0.000002    2.087207e-06   1.134137e-07   9.863156e-08         6.644034                  0.000864                0.000000                 44            2241           ok                
+      heat    Shampoo     4               0.001468      2.970588e-05          0.000033    2.970588e-05   2.378843e-06   1.402296e-06         9.002782                  0.004405                0.000000                 41            2241           ok                
+      heat       SOAP     4               0.000740      7.772787e-06          0.000008    7.772787e-06   2.673822e-08   5.363332e-07         9.214417                  0.002246                0.051282                 41            2241           ok                
+      heat       Muon     4               0.046945      4.955509e-04          0.002359    4.955509e-04   5.770272e-04   1.286357e-03         9.857299                  0.147390                0.717949                 41            2241           ok                
+   burgers       Adam     0               0.395633      2.864982e-02          0.066084    2.870938e-02   3.726944e-02   1.047311e-04         9.159684                  1.197383                0.000000                 41            2241           ok                
+   burgers      LBFGS     0               0.224205      1.450610e-02          0.028570    1.430544e-02   1.401794e-02   2.467731e-04         3.840742                  0.439393                0.000000                 41            2241           ok                
+   burgers Adam_LBFGS     0               0.202559      5.195463e-03          0.010997    4.942168e-03   6.043182e-03   1.173087e-05         9.181848                  0.613785                0.000000                 65            2241           ok                
+   burgers    Shampoo     0               0.359973      2.975173e-02          0.064415    2.888016e-02   3.551123e-02   2.384852e-05         9.965482                  1.136367                0.000000                 41            2241           ok                
+   burgers       SOAP     0               0.378035      2.781709e-02          0.064341    2.726258e-02   3.707186e-02   6.253560e-06         9.937811                  1.191728                0.000000                 41            2241           ok                
+   burgers       Muon     0               0.260786      5.919464e-03          0.008254    6.098853e-03   2.022787e-03   1.327319e-04        10.130416                  0.830039                0.564103                 41            2241           ok                
+   burgers       Adam     1               0.382127      3.054778e-02          0.067925    2.991966e-02   3.797689e-02   2.875580e-05         8.943500                  1.142778                0.000000                 41            2241           ok                
+   burgers      LBFGS     1               0.188972      1.022619e-02          0.018257    9.930730e-03   8.307487e-03   1.848446e-05         3.693088                  0.363155                0.000000                 40            2241           ok                
+   burgers Adam_LBFGS     1               0.144282      5.527615e-03          0.010740    5.498314e-03   5.224886e-03   1.711507e-05         9.172391                  0.436971                0.000000                 65            2241           ok                
+   burgers    Shampoo     1               0.418004      3.482412e-02          0.079446    3.435806e-02   4.507696e-02   1.097621e-05         9.747196                  1.305030                0.000000                 41            2241           ok                
+   burgers       SOAP     1               0.366109      2.688345e-02          0.057979    2.636192e-02   3.160472e-02   1.261671e-05         9.763918                  1.143989                0.128205                 41            2241           ok                
+   burgers       Muon     1               0.239299      5.517782e-03          0.006885    5.871492e-03   5.093070e-04   5.043672e-04        10.577125                  0.778261                0.410256                 41            2241           ok                
+   burgers       Adam     2               0.304374      2.145570e-02          0.048906    2.238866e-02   2.645742e-02   5.962429e-05         8.974395                  0.911821                0.051282                 41            2241           ok                
+   burgers      LBFGS     2               0.296095      1.282138e-02          0.024095    1.335444e-02   1.058508e-02   1.557166e-04         3.580889                  0.560308                0.000000                 41            2241           ok                
+   burgers Adam_LBFGS     2               0.270638      7.344949e-03          0.016498    7.514928e-03   8.974778e-03   8.468572e-06         9.089637                  0.815947                0.000000                 65            2241           ok                
+   burgers    Shampoo     2               0.400601      3.167690e-02          0.074093    3.392330e-02   4.015168e-02   1.845199e-05        10.130222                  1.275034                0.000000                 41            2241           ok                
+   burgers       SOAP     2               0.369319      2.943189e-02          0.065539    3.165428e-02   3.388240e-02   2.743024e-06         9.911527                  1.162713                0.000000                 41            2241           ok                
+   burgers       Muon     2               0.090125      6.005140e-03          0.009730    5.891324e-03   2.347793e-03   1.490505e-03        10.509425                  0.292170                0.641026                 41            2241           ok                
+   burgers       Adam     3               0.279351      1.725815e-02          0.038034    1.769646e-02   2.027484e-02   6.258540e-05         9.130614                  0.844111                0.000000                 41            2241           ok                
+   burgers      LBFGS     3               0.149510      4.830216e-03          0.009034    5.043305e-03   3.980140e-03   1.074011e-05         3.786571                  0.290933                0.000000                 40            2241           ok                
+   burgers Adam_LBFGS     3               0.181832      3.535780e-03          0.007415    3.427102e-03   3.983865e-03   4.473786e-06         9.059131                  0.547285                0.000000                 65            2241           ok                
+   burgers    Shampoo     3               0.363917      2.872630e-02          0.062924    2.907157e-02   3.384390e-02   8.342226e-06        10.291865                  1.167478                0.000000                 41            2241           ok                
+   burgers       SOAP     3               0.294501      2.374575e-02          0.047494    2.342603e-02   2.405774e-02   9.755900e-06        10.092490                  0.935590                0.025641                 41            2241           ok                
+   burgers       Muon     3               0.079837      2.901406e-03          0.004554    3.211438e-03   1.059743e-03   2.831866e-04        10.163954                  0.254527                0.435897                 41            2241           ok                
+   burgers       Adam     4               0.346477      2.550131e-02          0.060330    2.506034e-02   3.502410e-02   2.453124e-04         9.156988                  1.048458                0.000000                 41            2241           ok                
+   burgers      LBFGS     4               0.142576      5.371311e-03          0.011190    4.983047e-03   6.197843e-03   9.408504e-06         3.506331                  0.266976                0.000000                 40            2241           ok                
+   burgers Adam_LBFGS     4               0.104850      8.386794e-03          0.011178    8.364137e-03   2.787225e-03   2.673503e-05         8.879455                  0.312437                0.000000                 65            2241           ok                
+   burgers    Shampoo     4               0.382945      3.063338e-02          0.067652    2.896734e-02   3.866584e-02   1.917986e-05         9.763731                  1.196586                0.000000                 41            2241           ok                
+   burgers       SOAP     4               0.382122      2.743780e-02          0.064362    2.602749e-02   3.829296e-02   4.171587e-05         9.861076                  1.199953                0.000000                 41            2241           ok                
+   burgers       Muon     4               0.134586      1.326390e-02          0.015080    1.262372e-02   2.137254e-03   3.190516e-04        10.319210                  0.432337                0.512821                 41            2241           ok                
+allen_cahn       Adam     0               1.141807      3.393234e-03          0.010672    3.406277e-03   6.198304e-03   1.067597e-03         9.001773                  3.425759                0.102564                 41            2241           ok                
+allen_cahn      LBFGS     0               0.776021      4.605470e-04          0.001892    4.582956e-04   1.331024e-03   1.027303e-04         4.058851                  1.563418                0.000000                 40            2241           ok                
+allen_cahn Adam_LBFGS     0               0.780132      1.238118e-04          0.001519    1.259048e-04   1.295052e-03   9.797981e-05         9.224060                  2.369350                0.031746                 65            2241           ok                
+allen_cahn    Shampoo     0               0.955275      6.288206e-04          0.002659    6.409628e-04   1.859810e-03   1.583950e-04         9.844594                  2.997279                0.000000                 41            2241           ok                
+allen_cahn       SOAP     0               1.029825      7.936292e-04          0.003164    7.939429e-04   2.281917e-03   8.862695e-05        10.235848                  3.294773                0.000000                 41            2241           ok                
+allen_cahn       Muon     0               0.813553      4.564428e-03          0.005984    4.502792e-03   1.227948e-03   2.535922e-04        10.294255                  2.610258                0.461538                 41            2241           ok                
+allen_cahn       Adam     1               1.182297      3.689384e-03          0.015527    3.740311e-03   1.041198e-02   1.374383e-03         8.857319                  3.518662                0.205128                 41            2241           ok                
+allen_cahn      LBFGS     1               0.813616      5.360900e-04          0.001878    5.308854e-04   1.282851e-03   6.464352e-05         3.571820                  1.537673                0.000000                 40            2241           ok                
+allen_cahn Adam_LBFGS     1               0.802554      1.426201e-04          0.001326    1.442090e-04   1.097186e-03   8.475099e-05         8.895930                  2.393701                0.095238                 65            2241           ok                
+allen_cahn    Shampoo     1               1.169939      3.545313e-03          0.012848    3.556693e-03   8.162430e-03   1.129061e-03         9.792951                  3.661170                0.000000                 41            2241           ok                
+allen_cahn       SOAP     1               0.958607      3.637129e-04          0.001913    3.618573e-04   1.493858e-03   5.746273e-05         9.867141                  3.011177                0.000000                 41            2241           ok                
+allen_cahn       Muon     1               0.926273      1.757151e-02          0.019570    1.759394e-02   1.562818e-03   4.128833e-04        10.483194                  2.999064                0.666667                 41            2241           ok                
+allen_cahn       Adam     2               1.044353      1.342391e-03          0.004965    1.311569e-03   3.272893e-03   3.803411e-04         8.869910                  3.110334                0.051282                 41            2241           ok                
+allen_cahn      LBFGS     2               0.782233      1.558753e-04          0.001361    1.533256e-04   1.121129e-03   8.655209e-05         3.730755                  1.510896                0.052632                 40            2241           ok                
+allen_cahn Adam_LBFGS     2               0.784289      9.771100e-05          0.001320    9.740307e-05   1.151334e-03   7.136629e-05         9.204819                  2.379489                0.031250                 66            2241           ok                
+allen_cahn    Shampoo     2               1.026564      1.118430e-03          0.003586    1.099728e-03   2.323611e-03   1.625890e-04         9.954909                  3.238954                0.000000                 41            2241           ok                
+allen_cahn       SOAP     2               0.987351      5.582516e-04          0.002336    5.535922e-04   1.731243e-03   5.110335e-05         9.722178                  3.078600                0.051282                 41            2241           ok                
+allen_cahn       Muon     2               0.662165      1.482373e-02          0.018163    1.474990e-02   2.708615e-03   7.041933e-04        10.435539                  2.139065                0.564103                 41            2241           ok                
+allen_cahn       Adam     3               1.064124      1.206345e-03          0.005479    1.200623e-03   3.946686e-03   3.319251e-04         9.017567                  3.195486                0.051282                 41            2241           ok                
+allen_cahn      LBFGS     3               0.876117      7.114073e-04          0.002228    7.065445e-04   1.470395e-03   5.136081e-05         3.692554                  1.683549                0.000000                 40            2241           ok                
+allen_cahn Adam_LBFGS     3               0.772180      9.318066e-05          0.001413    9.292749e-05   1.254750e-03   6.524145e-05         8.904438                  2.304209                0.031746                 65            2241           ok                
+allen_cahn    Shampoo     3               1.029111      2.907036e-03          0.008028    2.971279e-03   4.462940e-03   5.938545e-04         9.917483                  3.240881                0.025641                 41            2241           ok                
+allen_cahn       SOAP     3               1.002686      4.716271e-04          0.002456    4.766803e-04   1.935638e-03   4.342067e-05         9.966028                  3.165381                0.102564                 41            2241           ok                
+allen_cahn       Muon     3               0.746604      7.600213e-03          0.009151    7.623720e-03   1.209098e-03   3.183921e-04        10.215100                  2.386227                0.641026                 41            2241           ok                
+allen_cahn       Adam     4               1.092780      1.728994e-03          0.008229    1.742556e-03   5.436143e-03   1.050319e-03         9.362469                  3.343703                0.000000                 41            2241           ok                
+allen_cahn      LBFGS     4               0.805039      1.930155e-04          0.001702    1.934648e-04   1.406960e-03   1.018331e-04         3.824630                  1.574388                0.052632                 40            2241           ok                
+allen_cahn Adam_LBFGS     4               0.760553      1.079267e-04          0.001432    1.075261e-04   1.204623e-03   1.200712e-04         9.092919                  2.293406                0.015873                 65            2241           ok                
+allen_cahn    Shampoo     4               1.040230      1.164566e-03          0.003838    1.168763e-03   2.478757e-03   1.906836e-04         9.991290                  3.288062                0.000000                 41            2241           ok                
+allen_cahn       SOAP     4               0.950380      4.046614e-04          0.002194    4.126012e-04   1.686745e-03   9.444989e-05        10.300498                  3.050187                0.051282                 41            2241           ok                
+allen_cahn       Muon     4               0.935520      6.229009e-03          0.009311    6.200053e-03   2.888013e-03   2.233557e-04        10.273757                  2.998594                0.564103                 41            2241           ok                
+       kdv       Adam     0               0.009661      5.097126e-05          0.000057    5.097126e-05   5.375722e-06   9.980927e-07        15.743452                  0.038332                0.256410                 41            2241           ok                
+       kdv      LBFGS     0               0.001752      2.115476e-06          0.000002    2.115476e-06   1.772016e-07   2.961371e-08         6.550732                  0.004484                0.000000                 40            2241           ok                
+       kdv Adam_LBFGS     0               0.001271      2.198558e-06          0.000003    2.198558e-06   2.480962e-07   6.818872e-08        14.410361                  0.004825                0.035714                 58            2241           ok                
+       kdv    Shampoo     0               0.013382      9.514479e-05          0.000101    9.514479e-05   5.150943e-06   4.698204e-07        15.808223                  0.053204                0.051282                 41            2241           ok                
+       kdv       SOAP     0               0.014358      1.633706e-03          0.001694    1.633705e-03   4.564241e-05   1.497904e-05        15.956838                  0.057353                0.076923                 41            2241           ok                
+       kdv       Muon     0               0.162347      3.259677e-03          0.006577    3.259678e-03   2.693963e-03   6.230715e-04        16.305341                  0.655554                0.615385                 41            2241           ok                
+       kdv       Adam     1               0.007140      3.785874e-05          0.000040    3.785874e-05   1.529799e-06   2.179730e-07        15.012352                  0.027664                0.538462                 41            2241           ok                
+       kdv      LBFGS     1               0.002103      5.590532e-06          0.000006    5.590531e-06   1.316093e-07   1.615238e-07         6.769574                  0.005473                0.000000                 40            2241           ok                
+       kdv Adam_LBFGS     1               0.000940      9.557822e-07          0.000001    9.557821e-07   8.353998e-08   1.054561e-08        15.567620                  0.003707                0.158730                 65            2241           ok                
+       kdv    Shampoo     1               0.024616      9.594958e-05          0.000104    9.594957e-05   6.566152e-06   1.381432e-06        16.328379                  0.099468                0.000000                 41            2241           ok                
+       kdv       SOAP     1               0.072008      8.032878e-05          0.000175    8.032877e-05   8.130303e-05   1.295572e-05        15.945443                  0.287542                0.230769                 41            2241           ok                
+       kdv       Muon     1               0.261805      2.936160e-03          0.005287    2.936159e-03   1.888487e-03   4.620878e-04        16.542870                  1.064837                0.615385                 41            2241           ok                
+       kdv       Adam     2               0.004718      4.719823e-05          0.000050    4.719823e-05   2.193222e-06   5.221634e-07        15.264783                  0.018435                0.256410                 41            2241           ok                
+       kdv      LBFGS     2               0.001013      1.942415e-06          0.000002    1.942416e-06   1.050820e-07   1.362535e-07         6.683990                  0.002619                0.105263                 40            2241           ok                
+       kdv Adam_LBFGS     2               0.000945      1.511430e-06          0.000002    1.511430e-06   1.119532e-07   4.427888e-08        14.197896                  0.003559                0.074074                 56            2241           ok                
+       kdv    Shampoo     2               0.020330      1.008468e-04          0.000107    1.008467e-04   5.538524e-06   2.330200e-07        16.325696                  0.082143                0.000000                 41            2241           ok                
+       kdv       SOAP     2               0.009797      1.476779e-05          0.000016    1.476779e-05   1.250031e-06   3.720670e-08        16.102005                  0.039313                0.307692                 41            2241           ok                
+       kdv       Muon     2               0.224330      3.313625e-03          0.006221    3.313625e-03   2.255985e-03   6.513561e-04        16.873612                  0.921490                0.589744                 41            2241           ok                
+       kdv       Adam     3               0.010140      4.719798e-05          0.000051    4.719798e-05   3.251034e-06   8.285417e-07        15.093379                  0.039393                0.256410                 41            2241           ok                
+       kdv      LBFGS     3               0.001152      3.055366e-06          0.000003    3.055366e-06   1.282819e-07   3.222431e-08         6.372454                  0.002909                0.000000                 37            2241           ok                
+       kdv Adam_LBFGS     3               0.000995      1.994178e-06          0.000002    1.994178e-06   4.570854e-08   1.489173e-08        15.697427                  0.003943                0.095238                 65            2241           ok                
+       kdv    Shampoo     3               0.046418      2.325839e-04          0.000298    2.325839e-04   6.317866e-05   2.156251e-06        16.083965                  0.186159                0.051282                 41            2241           ok                
+       kdv       SOAP     3               0.017818      3.080067e-04          0.000511    3.080067e-04   6.557033e-05   1.375186e-04        16.359595                  0.072069                0.179487                 41            2241           ok                
+       kdv       Muon     3               0.243626      3.766768e-03          0.005497    3.766768e-03   1.471037e-03   2.596049e-04        16.787901                  0.998211                0.615385                 41            2241           ok                
+       kdv       Adam     4               0.008709      2.856470e-05          0.000031    2.856470e-05   1.467769e-06   6.376908e-07        15.121969                  0.033866                0.153846                 41            2241           ok                
+       kdv      LBFGS     4               0.000988      2.497794e-06          0.000003    2.497794e-06   1.543885e-07   3.949499e-08         6.994412                  0.002614                0.000000                 40            2241           ok                
+       kdv Adam_LBFGS     4               0.001183      1.775364e-06          0.000002    1.775364e-06   1.082043e-07   8.453393e-08        14.585690                  0.004516                0.036364                 57            2241           ok                
+       kdv    Shampoo     4               0.025284      1.760683e-04          0.000194    1.760683e-04   1.656673e-05   1.311357e-06        16.625119                  0.103094                0.000000                 41            2241           ok                
+       kdv       SOAP     4               0.008838      2.915404e-05          0.000030    2.915404e-05   9.596688e-07   1.532018e-07        15.585647                  0.034893                0.153846                 41            2241           ok                
+       kdv       Muon     4               0.177523      2.279824e-03          0.004433    2.279824e-03   1.900976e-03   2.522852e-04        16.285181                  0.716394                0.589744                 41            2241           ok                
+
+Summary:
+   problem  optimizer  mean_gap  std_gap  mean_runtime  mean_residual  mean_runtime_normalized_error  n_runs  n_failures
+allen_cahn       Adam  1.105072 0.056630      9.021808       0.002272                       3.318789       5           0
+allen_cahn Adam_LBFGS  0.779942 0.015544      9.064433       0.000113                       2.348031       5           0
+allen_cahn      LBFGS  0.810605 0.039790      3.775722       0.000411                       1.573985       5           0
+allen_cahn       Muon  0.816823 0.117184     10.340369       0.010158                       2.626642       5           0
+allen_cahn       SOAP  0.985770 0.032480     10.018339       0.000518                       3.120024       5           0
+allen_cahn    Shampoo  1.044224 0.077898      9.900245       0.001873                       3.285269       5           0
+   burgers       Adam  0.341592 0.049615      9.073036       0.024683                       1.028910       5           0
+   burgers Adam_LBFGS  0.180832 0.062545      9.076492       0.005998                       0.545285       5           0
+   burgers      LBFGS  0.200272 0.062826      3.681524       0.009551                       0.384153       5           0
+   burgers       Muon  0.160927 0.084256     10.340026       0.006722                       0.517467       5           0
+   burgers       SOAP  0.358017 0.036088      9.913365       0.027063                       1.126795       5           0
+   burgers    Shampoo  0.385088 0.024534      9.979699       0.031122                       1.216099       5           0
+      heat       Adam  0.007196 0.012447      8.504666       0.000129                       0.020789       5           0
+      heat Adam_LBFGS  0.000518 0.000185      6.851538       0.000003                       0.001362       5           0
+      heat      LBFGS  0.000536 0.000244      2.956942       0.000004                       0.000926       5           0
+      heat       Muon  0.037060 0.015963      9.800799       0.001574                       0.115956       5           0
+      heat       SOAP  0.004432 0.008093      9.298024       0.000014                       0.013600       5           0
+      heat    Shampoo  0.002068 0.000532      9.108620       0.000042                       0.006241       5           0
+       kdv       Adam  0.008073 0.002198     15.247187       0.000042                       0.031538       5           0
+       kdv Adam_LBFGS  0.001067 0.000151     14.891799       0.000002                       0.004110       5           0
+       kdv      LBFGS  0.001402 0.000500      6.674232       0.000003                       0.003620       5           0
+       kdv       Muon  0.213926 0.042627     16.558981       0.003111                       0.871297       5           0
+       kdv       SOAP  0.024564 0.026768     15.989906       0.000413                       0.098234       5           0
+       kdv    Shampoo  0.026006 0.012356     16.234276       0.000140                       0.104814       5           0
+
+Report written to: results/full/REPORT.md
+Created ZIP: /home/claude/pinn_bench/results/full.zip
